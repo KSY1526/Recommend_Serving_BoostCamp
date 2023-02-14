@@ -1,0 +1,95 @@
+.dist
+chromedriver.exe
+chromedriver
+chromedriver_linux64.zip
+google-chrome-stable_current_amd64.deb
+.ipynb_checkpoints
+*.pem
+__pycache__
+.vscode/
+.empty
+.venv
+
+# schini
+schini_concat.ipynb
+lab.ipynb
+
+# 개인화된 crawling 처리
+study
+crawling_user_review.ipynb
+crawling_rest_server.ipynb
+crawling_user_review_failed.ipynb
+crawling_user_review.py
+crawling_get_rest_info.ipynb
+crwaling_concat.ipynb
+crawling_get_rest_info.ipynb
+csv_concat.ipynb
+notsaved.txt
+
+
+# front_end
+
+# dependencies
+frontend/node_modules/
+frontend/.pnp
+.pnp.js
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+database/ssl
+database/rest_csv
+database/user_csv
+
+
+# data
+area_csv
+user_csv
+backend/app/models/data/
+model/data/user/*
+model/data/rest/*
+model/data/*.csv
+tem.ipynb
+tem.py
+*.npy
+*.pickle
+*.pkl
+*.pt
+*.csv
+airflow/data/
+
+# logs
+
+# model
+output/
+
+# poetry
+*.toml
+poetry*
+
+# DB
+*.db
+
+# MLflow
+mlruns
+
+# airflow
+airflow/logs/
+airflow-webserver.pid
+airflow.cfg
+webserver_config.py
